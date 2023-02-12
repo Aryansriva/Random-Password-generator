@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <span id="pass">Testing</span>
+            <div class="row">
+                <div class="left">
+                    Password Length
+                </div>
+                <div class="right">
+                    <input type="number" name="" max="20" min="4" id="pass-length" value="10">
+                </div>
+            </div>
+            <div class="row">
+                <label for="upper-case">
+                    <div class="left">
+                        UpperCase
+                    </div>
+                </label>
+                    <div class="right">
+                        <input type="checkbox" name="" id="Upper-case" checked>
+                    </div>
+            </div>
+            <div class="row">
+                <label for="lower-case">
+                    <div class="left">
+                        LowerCase
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="Lower-case" checked>
+                </div>
+            </div>
+            <div class="row">
+                <label for="symbols">
+                    <div class="left">
+                        Symbols
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="Symbol" checked>
+                </div>
+            </div>
+            <div class="row">
+                <label for="number">
+                    <div class="left">
+                        Numbers
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="Number" checked>
+                </div>
+            </div>
+            <div class="btn">
+                <button id="gen-btn" class="common-btn-class"> Generate </button>
+                <!-- <button id="cpy-pass-btn" class="common-btn-class">Copy</button> -->
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

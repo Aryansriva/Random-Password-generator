@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee87c8;
+}
+
+.main{
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+    background: #ee87c8;
+    box-shadow:  22px 22px 45px #b95795,
+                -22px -22px 45px #ffadff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+span{
+    width: 90%;
+    height: auto;
+    background-color: rgb(245, 145, 248);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow:  6px 6px 7px #cb4dce,
+                -6px -6px 7px #ff6bff;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 0.3rem;
+    word-wrap: break-word;
+    justify-items: center;
+}
+
+.row{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+    margin: 0.3rem;
+    background-color: rgb(243, 181, 233);
+    border-radius: 10px;
+    box-shadow:  6px 6px 7px #cb4dce,
+                 -6px -6px 7px #ff6bff;
+    text-align: left;
+    font-weight: 600;
+
+}
+
+#pass-length{
+    height: auto;
+    /* font-size: 0.rem; */
+    background-color: #e495d3;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: #ff6bff;
+    font-weight: 600;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    outline: none;
+}
+
+.common-btn-class{
+    border: none;
+    background-color: #f138e2;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow:  6px 6px 28px #ae42b0,
+    -6px -6px 28px #ff76ff;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: medium;
+    margin-top: 0.4rem;
+    padding: 0.5rem;
+}
+
+.common-btn-class:hover{
+    box-shadow:  6px 6px 14px #aa54ac,
+    -6px -6px 14px #ce8cce;
+    background-color: rgb(173, 134, 166);
+    color: black;
+}
